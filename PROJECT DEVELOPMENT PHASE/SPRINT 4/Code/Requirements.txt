@@ -1,5 +1,0 @@
- Flask
-ibm_db
-clarifai_grpc
-requests
-sendgrid
