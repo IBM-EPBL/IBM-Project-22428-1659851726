@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='home-style.css')}}"
+    />
+    <title>HOME</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="nutri">Nutritional Assistant</label>
+        <ul>
+          <li><a href="{{url_for('reg')}}">Register</a></li>
+          <li><a href="{{url_for('login')}}">Login</a></li>
+          <li><a href="{{url_for('support')}}">Support</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bg-text">
+      <p>
+        Nutritional Assistant is a web app that aims at automatically estimating
+        the food attributes such as ingredients and nutritional value by
+        classifying the input image of the food. Due to the ignorance of healthy food habits,
+        obesity rates are increasing at an alarming speed, and this is reflective of the risks to people’s health.
+        People need to control their daily calorie intake by eating healthier foods,
+        which is the most basic method to avoid obesity. However, although food packaging comes with nutrition (and calorie)
+        labels, it’s still not very convenient for people to refer to App-based nutrient dashboard systems which can
+        analyze real-time images of a meal and analyze it for nutritional content which can be very handy and improves
+        the dietary habits, and therefore, helps in maintaining a healthy lifestyle.
+      </p>
+    </div>
+    <section></section>
+  </body>
+</html>
