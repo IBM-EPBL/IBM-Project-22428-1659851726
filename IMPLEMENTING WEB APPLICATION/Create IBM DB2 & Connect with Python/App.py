@@ -4,12 +4,12 @@ import re
 
 app = Flask(_name_)
 
-hostname = '19af6446-6171-4641-8aba-9dcff8e1b6ff.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud'
+hostname = '54a2f15b-5c0f-46df-8954-7e38e612c2bd.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud'
 uid = 'sfr69790'
 pwd = 'VFRS0bFKFeIhMbcq'
 driver = "{IBM DB2 ODBC DRIVER}"
-db_name = 'Bludb'
-port = '30699'
+db_name = 'bludb'
+port = '32733'
 protocol = 'TCPIP'
 cert = "C:/Users/Prithiarun/Desktop/IBM/TEST/certi.crt"
 dsn = (
